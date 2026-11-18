@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spl2xql"
+version = "0.1.0"
+description = "Translate a practical subset of Splunk SPL into a Cortex XQL draft"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Reli Dayan" }]
+
+[project.scripts]
+spl2xql = "spl2xql.__main__:main"
+
+[tool.setuptools]
+packages = ["spl2xql"]

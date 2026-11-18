@@ -1,0 +1,8 @@
+{
+  "datasets": {
+    "sourcetype:okta": "okta_sso_raw"
+  },
+  "fields": {
+    "src": "xdm.source.ipv4"
+  }
+}
